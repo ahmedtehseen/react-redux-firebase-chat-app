@@ -1,0 +1,83 @@
+#snackbar {
+    visibility: visible; 
+    min-width: 250px; 
+    margin-left: -125px; 
+    background-color: #333; 
+    color: #fff;
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px;
+    position: fixed; 
+    z-index: 1; 
+    left: 50%; 
+    bottom: 30px; 
+    -webkit-animation: fadein 1.5s;
+    animation: fadein 1.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+/*navbar*/
+
+.navbar-brand {
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-header>img {
+  height: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  /*width: auto;*/
+}
+
+.navbar-text{
+    color: #F5F5F5 !important;
+}
+
+/*input*/
+
+.innerbox{
+    position: absolute;
+    top: 10%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+    padding: 20px;
+}
+.box{
+    background-color: #FFF;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.1);
+    box-shadow: 0 1px 5px rgba(0,0,0,.1);
+    border-radius: 0;
+    padding: 8px 15px;
+    overflow: hidden;
+    height: 600px;
+}
+
+.main{
+    background: #FAFAFA;
+}
+
+#main{
+    margin-bottom: 20px;
+}
+
+.userimage>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+input.inputClass{
+    opacity:  1 !important;
+}
+
