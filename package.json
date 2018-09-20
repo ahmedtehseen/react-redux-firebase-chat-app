@@ -10,7 +10,7 @@
     "firebase": "^3.6.10",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.7",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.0.1",
     "react-file-input": "^0.2.5",
     "react-redux": "^5.0.2",
     "react-simple-file-input": "^1.0.0",
